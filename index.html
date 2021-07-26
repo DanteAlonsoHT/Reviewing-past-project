@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">This survey form is to meet you more.</p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Enter your name:</label>
+            <input id="name" type="text" name="name" placeholder="Enter your name here" required>
+            <label id="email-label" for="email">Enter your email address:</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email here" required>
+            <label id="number-label" for="number">How old are you? (Between 18-100) years:</label>
+            <input type="number" id="number" name="age" min="18" max="100" placeholder="Enter your age here" required>
+            <select id="dropdown" name="dropdown">
+              <option value="Mexico">Mexico</option>
+              <option value="Nigeria">Nigeria</option>
+              <option value="France">France</option>
+            </select>
+
+            <label for="tecskills">Choose your technical skills:</label><br>
+
+            <input type="radio" id="javascript" name="tecskills" value="javascript">
+            <label for="javascript">JavaScript</label><br>
+            <input type="radio" id="html" name="tecskills" value="html">
+            <label for="html">HTML 5</label><br>
+            <input type="radio" id="css" name="tecskills" value="css">
+            <label for="CSS">CSS</label><br>
+
+            <label for="materials">Choose your material:</label><br>
+            <input type="checkbox" id="computer" name="computer" value="computer">
+            <label for="computer"> Computer</label><br>
+            <input type="checkbox" id="laptop" name="laptop" value="laptop">
+            <label for="laptop"> Laptop</label><br>
+            <input type="checkbox" id="microphone" name="microphone" value="microphone">
+            <label for="microphone"> Microphone</label><br>
+            <input type="checkbox" id="ethernet" name="ethernet" value="ethernet">
+            <label for="ethernet"> Ethernet</label><br>
+
+            <textarea id="comment" name="comment">
+              Make a comment here
+            </textarea>
+            <button id="submit" name="submit" value="submit">Submit</button>
+
+        </form>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
